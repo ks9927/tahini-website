@@ -13,7 +13,7 @@ import Sources from './Pages/Sources';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tahini-website/">
         <Navbar />
       <Routes>
         <Route path="/" element={<Layout />}>
